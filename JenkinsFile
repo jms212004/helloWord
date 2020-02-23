@@ -1,0 +1,20 @@
+pipeline {
+   agent any
+   stages {
+      stage('clone') {
+         steps {
+           git 'https://github.com/jms212004/helloWord.git'
+         }
+      }
+      stage('analyse') {
+         steps {
+            echo 'Hello World'
+         }
+      }
+      stage('run') {
+         steps {
+            echo 'Hello World'
+         }
+      }
+   }
+}
