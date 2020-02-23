@@ -1,4 +1,4 @@
-<php 
+<?php 
 /*
 * Script only for test 
 */
